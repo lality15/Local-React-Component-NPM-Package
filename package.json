@@ -1,0 +1,20 @@
+{
+  "name": "content-search-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ContentSearch.js",
+  "scripts": {
+    "build": "babel src --out-file ContentSearch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
